@@ -7,7 +7,7 @@ import keys
 epochTime = keys.get_epoch()
 
 deposit_all = 0
-deposit_all += allDepositHistory.getAllDeposit()#ajouter l'epoch en variable d'entrée
+deposit_all += allDepositHistory.getAllDeposit(keys.get_epoch_all_deposit())#ajouter l'epoch en variable d'entrée
 deposit_all += allAutoInvestCustom.get_all_auto_invest(epochTime)
 
 actual_value = 0

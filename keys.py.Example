@@ -41,3 +41,6 @@ def get_btc_addr():
 
 def get_epoch():
     return epoch
+
+def get_epoch_all_deposit():
+    return 1654041601000
