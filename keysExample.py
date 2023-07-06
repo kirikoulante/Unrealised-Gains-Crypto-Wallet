@@ -1,0 +1,43 @@
+#binanceWalletValue + allDepositHistory
+API_KEY='YourKey'
+API_SECRET='YourKey'
+
+#cle etherscan
+api_eth_key = 'YourKey'
+
+#wallet address
+atom_addr = "YourAddress"
+egld_addr = "YourAddress"
+dot_addr = "YourAddress"
+eth_addr = "YourAddress"
+btc_addr = "YourAddress"
+
+#first epoch date
+epoch = 0 #YourEpoch
+
+def get_api_key():
+    return API_KEY
+
+def get_api_secret():
+    return API_SECRET
+
+def get_api_eth():
+    return api_eth_key
+
+def get_atom_addr():
+    return atom_addr
+
+def get_egld_addr():
+    return egld_addr
+
+def get_dot_addr():
+    return dot_addr
+
+def get_eth_addr():
+    return eth_addr
+
+def get_btc_addr():
+    return btc_addr
+
+def get_epoch():
+    return epoch
