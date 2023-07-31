@@ -7,8 +7,6 @@ Add the values to the file [keys.py.Example](keys.py.Example) and rename it : `"
 
 The file [allAutoInvestCustom.py](allAutoInvestCustom.py) represent a custom auto invest without API beceause it is not accessible from binance API. You con use it or not depends of what you need.
 
-Ensuite vous pouvez montrer ce que vous obtenez au final...
-
 ## Launch
 
 Launch the file : [updateUnrealisedGains.py](updateUnrealisedGains.py)
